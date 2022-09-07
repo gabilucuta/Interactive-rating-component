@@ -1,0 +1,165 @@
+/* - Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) */
+
+*
+{
+    font-size: 15px;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body
+{
+    background: #141519;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+
+p{
+    color: #838A94;
+    line-height: 25px;
+}
+
+button
+{
+    width: 100%;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 10px;
+    font-family: 'Overpass';
+    letter-spacing: 3px;
+    margin-top: 40px;
+}
+
+button:hover
+{
+    color: orange;
+    background-color: white;
+}
+
+.firstContainer
+{
+    border-radius: 8%;
+    background: #171E28;
+  background: linear-gradient(
+    180deg,
+    #202731 10%,
+    #171E28 100%
+  );
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contstar
+{
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    background-color: #272E38;
+
+}
+
+.star
+{
+    position: relative;
+    top: 10px;
+}
+
+.selector input {
+    position: absolute;
+    opacity: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .selector{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 3rem;
+  }
+
+.checkmark
+{
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#272E38;
+    border-radius: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    color: #838A94;
+ }
+
+
+  .container:hover input ~ .checkmark {
+    color: white;
+    background-color: orange;
+  }
+  
+  .container input:checked ~ .checkmark {
+    color: white;
+    background-color: hsl(217, 12%, 63%) ;
+  }
+
+.attribution 
+{
+    position: absolute;
+    bottom: 0;
+    left: 38%;
+    translate: (-50%,-50%);
+    margin: 20px;
+    color: white;    
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a 
+{ color: hsl(228, 45%, 44%); }
+
+.first2
+{
+    display: none;
+    text-align: center;
+}
+
+.first2 svg
+{
+    margin: 40px;
+}
+
+
+
+.rateValue
+{
+    margin-bottom: 40px;
+}
+
+#firstSpan
+{
+    background: #4f535a4a ;
+    padding: 7px;
+    border-radius: 25px;
+    color: orange;
+}
+
+
